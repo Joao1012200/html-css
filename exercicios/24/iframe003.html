@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et alias, aliquid nobis suscipit vel eaque! Consequuntur, unde aliquam? Non, impedit officiis? Voluptatibus cum autem dolorem enim est reiciendis repudiandae quasi?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nam praesentium suscipit doloremque eaque dignissimos et cumque. Fuga eos architecto, molestiae sed necessitatibus unde iusto dignissimos, nobis autem vero nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid explicabo aperiam assumenda ex amet at, repudiandae maiores quidem ipsam, officia accusamus fugit earum sit. Blanditiis dolor neque consectetur mollitia voluptatem?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <img src='imagens/astronauta.png'>" frameborder="0">
+        <p>Infelizmente seu navegador não suporta.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatem quis distinctio aliquam maxime dolorem. Ab delectus nam magnam fugit nulla? Porro quidem eum, nulla deleniti nisi totam nemo voluptates.</p>
+</body>
+</html>
